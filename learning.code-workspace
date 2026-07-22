@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": "📁 learning (root)",
+			"path": "."
+		},
+		{
+			"name": "⚙️ .venv (Python Environment)",
+			"path": ".venv"
+		},
+		{
+			"name": "🔗 intermediate (LangChain)",
+			"path": "1.0-lc-intermediate"
+		},
+		{
+			"name": "🤖 agents",
+			"path": "2-agents"
+		},
+		{
+			"name": "📚 basics",
+			"path": "basics"
+		}
+	],
+	"settings": {
+		"explorer.compactFolders": false,
+		"workbench.colorTheme": "Dark+",
+		"editor.fontSize": 14,
+		"files.exclude": {
+			"**/__pycache__": true,
+			"**/*.pyc": true
+		}
+	}
+}

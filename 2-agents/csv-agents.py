@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import pandas as pd
+import torch
 
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
@@ -26,10 +27,10 @@ def main():
         user_question = st.text_input(
             "Ask your questions about HR Employees Attritioning ...")
         
-        csv_path = "../../sony-blr-agentic-ai-practices\lc-training-data\hr-employees-attritions-internet.csv"
+        csv_path = "C:\\Users\\Rupesh\\Desktop\\AIML\\AIML\\Advanced\\sony-blr-agentic-ai-practices\\sony-blr-agentic-ai-practices\\lc-training-data\\hr-employees-attritions-internet.csv"
         df = pd.read_csv(csv_path)
 
-        model_name = "llama-3.3-70b-versatile"
+        model_name = "llama-3.1-8b-instant"
         temperature = 0.8
         max_tokens = 1000
 
